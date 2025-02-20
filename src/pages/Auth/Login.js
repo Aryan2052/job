@@ -24,6 +24,8 @@ const Login = () => {
 
   return (
     <div>
+        <div className="bg-green-500 text-white p-4">Tailwind Works!</div>
+
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
