@@ -1,0 +1,55 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "email": "user1@example.com",
+            "password": "password123"
+        },
+        {
+            "id": 2,
+            "email": "user2@example.com",
+            "password": "password123"
+        }
+    ],
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Frontend Developer",
+            "location": "Mumbai",
+            "salary": "8 LPA",
+            "description": "React Developer with 2+ years of experience.",
+            "requirements": [
+                "React.js",
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Backend Developer",
+            "location": "Bangalore",
+            "salary": "10 LPA",
+            "description": "Node.js Developer with 3+ years of experience.",
+            "requirements": [
+                "Node.js",
+                "Express.js",
+                "MongoDB"
+            ]
+        }
+    ],
+    "applications": [
+        {
+            "id": 1,
+            "userId": 1,
+            "jobId": 1,
+            "status": "Under Review"
+        },
+        {
+            "id": 2,
+            "userId": 2,
+            "jobId": 2,
+            "status": "Accepted"
+        }
+    ]
+}
